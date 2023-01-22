@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: Open Sans;
+    margin: 0;
+}
+
+body{
+  background: hsla(270, 94%, 25%, 1);
+  color: white;
+  background: linear-gradient(90deg, #40047c 0%, #07f29c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#max-container{
+  display: flex;
+  background-color: #232232;
+  width: 45rem;
+  height: 22rem;
+  border-radius: 25px;  
+}
+#texto-chamativo{
+  font-size: 26px;
+  font-weight: bold;
+  margin: 2rem 0rem 0rem 4rem;
+}
+img{
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  left: 390px;
+  bottom: 35px;  
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 27rem;
+  background: linear-gradient(200deg, #40047c 0%, #07f29c 100%);
+  width: 14.5rem;
+  height: 15rem;
+  border-radius: 9px;
+  position: absolute;
+  box-shadow: -4px 5px 5px 2px rgb(26, 27, 44);
+}
+#login{
+  font-size: 22px;
+  font: bolder;
+  color: #f5e5fc;
+
+}
+#login-container{
+  display: grid;
+  gap: 10px;
+}
+#usuario, #senha{
+  font-size: 12px;
+  position: relative;
+  top: 4px;
+}
+input{
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  width: 190px;
+  background-color: #d9d9f1;
+  color: white;
+}
+input::placeholder{
+  color:rgb(122, 105, 81);
+  padding: 6px;
+  font-size: 11px;
+  font: bold;
+}
+#login-butao{
+  border: none;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 14px;
+  background-color: #04e471;
+  font: bolder;
+  color: #1f1f1f;
+  font-weight: 900;
+  box-shadow: 0px 0px 1px 0.20px #494666;
+  cursor: pointer;
+  font-size: 11px;
+  letter-spacing: 2px;
+  filter:contrast(1.1);
+  transition: all 0.5s;
+}
+#login-butao:hover{
+  background-color:#232232;
+  color: #04e471;
+}
